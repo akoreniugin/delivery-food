@@ -546,5 +546,25 @@ body {
     .footer-link:not(:last-child) {
         margin-right: 0;
     }
+    .food-row {
+        flex-wrap: wrap;
+    }
+    .food-name {
+        width: 100%;
+    }
+    .food-price {
+        margin-left: 0;
+    }
+    .modal-dialog {
+        padding: 30px 45px;
+    }
+    .modal-button-close {
+        display: none;
+    }
+    .modal-footer {
+        flex-direction: column;
+    }
+    .modal-pricetag {
+        margin-bottom: 15px;
+    }
 }
-
